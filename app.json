@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Picaday",
+    "slug": "Picaday",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/SplashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.gauranggehlot.Picaday"
+    },
+    "web": {
+      "favicon": "./src/assets/images/icon.png"
+    }
+  }
+}
